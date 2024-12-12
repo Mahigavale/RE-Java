@@ -44,7 +44,7 @@ public class Basics {
 		 *the primitive data types are stored in the stack memory of the java. :faster;efficient
 		 *primitive data types can't use to call the methods.
 		 *they have the default values and can't be null.
-		 * 0,0.0, \u000=> default for the char.
+		 * 0,0.0, '\u000'=> default for the char.
 		 */
 		
 		
