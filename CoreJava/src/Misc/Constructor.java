@@ -5,6 +5,7 @@ public class Constructor {
 	public static void main(String[] args) {
 	
 		Demo2 d=new Demo2(4);
+		System.out.println(d);
 		
 		/**
 		 * if we declare the constructor as Private 
@@ -17,16 +18,16 @@ public class Constructor {
 
 }
 
-class Demo{
+class Demo34{
 	
 	// int j;
-	protected Demo()
+	protected Demo34()
 	{
 		
 		System.out.println("A");
 	}
 	
-	public Demo(int i)
+	public Demo34(int i)
 	{     this();
 		
 		System.out.println("B");
@@ -36,7 +37,7 @@ class Demo{
 
 
 
-class Demo2 extends Demo{
+class Demo2 extends Demo34{
 	int j;
 	
 	public Demo2(int i)
