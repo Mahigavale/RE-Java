@@ -37,12 +37,14 @@ class Demo{
 
 
 class Demo2 extends Demo{
-	
+	int j;
 	
 	public Demo2(int i)
 	{
 		super (i);
+		j=78;
 		System.out.println("C");
+		System.out.println("instacne variable intialized :"+ j);
 	}
 	
 	
