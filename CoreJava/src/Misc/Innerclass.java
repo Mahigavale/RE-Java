@@ -15,7 +15,6 @@ public class Innerclass {
 	}
 }
 
-
 class outer
 {
 	
