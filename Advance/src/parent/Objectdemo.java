@@ -82,3 +82,7 @@ class Demo extends Object
 		return this.name;
 	}
 }
+
+// if the .equals() is true then the hashcode must be the same.
+//because they are going to  have  the same memory location in the collection framework like Hashmap,hashset etc.
+
