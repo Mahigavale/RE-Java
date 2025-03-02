@@ -9,7 +9,9 @@ public class First {
 		PrintCharacters characters=new PrintCharacters();
 		
 		PrintMessages messages=new PrintMessages();
+		numbers.setName("numbers");
 		numbers.start();
+		System.out.println(numbers.getName());
 		System.out.println(numbers.isAlive());
 		numbers.join();
 		characters.start();
