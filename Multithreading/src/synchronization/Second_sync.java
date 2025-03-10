@@ -33,9 +33,11 @@ public class Second_sync {
 
 class Bankaccount {
 
-	private int balance = 15000;
+	private Integer balance = 15000;
 
-	public synchronized  void withdraw(int amount) {
+	public   void withdraw(int amount) {
+		synchronized(balance)
+		{
 		    if(amount<balance)
 		    {
 		    System.out.println("Withdrawing cash :::" + amount);
@@ -51,7 +53,7 @@ class Bankaccount {
 			
 		}
 
-			
+		}
 			
 	}
 
