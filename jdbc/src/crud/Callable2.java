@@ -23,9 +23,9 @@ public class Callable2 {
 		
 		while(rs.next())
 		{
-			System.out.println(rs.getInt(1));
-			System.out.println(rs.getString(2));
-			System.out.println("!!!!!*****************!!!!!");
+			System.out.println("ID   :"+rs.getInt("id"));
+			System.out.println("NAME : "+rs.getString("name"));
+			System.out.println("*****************");
 		}
 		
 		con.close();
