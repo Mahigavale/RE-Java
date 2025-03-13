@@ -1,1 +1,1 @@
-Codes for Core Java to Advvanced topics till JDBC.
+Codes for Core Java to Advanced topics till JDBC.
