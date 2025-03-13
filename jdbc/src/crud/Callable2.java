@@ -16,10 +16,13 @@ public class Callable2 {
 		
 		Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306/techrel","root","root");
 		
-		CallableStatement call=con.prepareCall("call getbetweenid(?,?)");
+		CallableStatement call=con.prepareCall("{call getbetweenid(?,?)}");
 		call.setInt(1, 1);
 		call.setInt(2, 4);
 		ResultSet rs=call.executeQuery();
+		
+		//System.out.println(rs.getFetchSize());
+		System.out.println();
 		
 		while(rs.next())
 		{
